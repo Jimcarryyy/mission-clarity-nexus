@@ -6,15 +6,18 @@ import { Mail, Phone, MapPin } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section className="py-24 bg-background">
+    <section id="contact" className="py-24 bg-background">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
+          <div className="inline-block px-4 py-2 bg-primary/10 rounded-full text-primary font-medium mb-4">
+            🤝 Get Involved
+          </div>
           <h2 className="section-heading mb-6 text-primary">
-            Get Involved
+            Join Our Mission
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Join us in advancing trauma recovery through science. Whether you're interested in supporting our research, 
-            partnering with our programs, or learning more about our work, we'd love to hear from you.
+            Whether you're interested in supporting our research, partnering with our programs, 
+            or learning more about our work, we'd love to connect with you.
           </p>
         </div>
         
